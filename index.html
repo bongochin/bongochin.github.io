@@ -8,668 +8,211 @@
 			content="width=device-width, initial-scale=1, user-scalable=no"
 		/>
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="shortcut icon" type="image/png" href="images/favicon.ico" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap"
 			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css"
 		/>
+		<link rel="shortcut icon" type="image/png" href="images/favicon.ico" />
+		<noscript
+			><link rel="stylesheet" href="assets/css/noscript.css"
+		/></noscript>
 	</head>
 	<body class="is-preload">
-		<!-- Header -->
-		<header id="header">
-			<link
-				rel="stylesheet"
-				href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css"
-			/>
-			<div class="inner">
-				<a href="#" class="image avatar"
-					><img src="images/avatar.jpeg" alt=""
-				/></a>
-				<h1><strong>Daniel Chin</strong></h1>
-				<h5>@bongochin</h5>
-				<h1>A Full-Stack Web Developer</h1>
-				<br />
-				<a href="images/Daniel Chin_Resume.pdf" target="_blank" class="button"
-					>Resume</a
+		<!-- Wrapper-->
+		<div id="wrapper">
+			<!-- Nav -->
+			<nav id="nav">
+				<a href="#" class="icon solid fa-home"><span>Home</span></a>
+				<a href="#summary" class="icon solid fa-id-card-alt"
+					><span>Work</span></a
 				>
-			</div>
-		</header>
+				<a href="#contact" class="icon solid fa-envelope"
+					><span>Contact</span></a
+				>
+				<a
+					href="https://github.com/bongochin"
+					target="_blank"
+					class="icon brands fa-github"
+					><span>Github</span></a
+				>
+			</nav>
 
-		<!-- Main -->
-		<div id="main">
-			<!-- About Me -->
-			<section id="aboutMe">
-				<img width="80" height="100" src="images/logo.png" />
-				<header class="major">
-					<strong>
-						<h1 style="color: #f8a95a">A <em>"Thank-You"</em> Letter</h1>
-					</strong>
-				</header>
-				<p style="color: black; font-size: 13px">
-					I build things to solve problems
-				</p>
-			</section>
+			<!-- Main -->
+			<div id="main">
+				<!-- Me -->
+				<article id="home" class="panel intro">
+					<header>
+						<h1>DANIEL CHIN</h1>
+						<p>Software Developer</p>
+					</header>
+					<a href="#summary" class="jumplink pic">
+						<img src="images/me.jpg" alt="" />
+					</a>
+				</article>
 
-			<!-- Skills -->
-			<section id="skill">
-				<h2>Languages & Frameworks</h2>
-				<div class="row">
-					<div class="skill">
-						<i class="devicon-python-plain"></i>
-						<p>Python</p>
-					</div>
-					<div class="skill">
-						<i class="devicon-javascript-plain"></i>
-						<p>Javascript</p>
-					</div>
-					<div class="skill">
-						<i class="devicon-html5-plain"></i>
-						<p>HTML5</p>
-					</div>
-					<div class="skill">
-						<i class="devicon-css3-plain"></i>
-						<p>CSS3</p>
-					</div>
-					<div class="skill">
-						<i class="devicon-nodejs-plain"></i>
-						<p>Node.js</p>
-					</div>
-					<div class="skill">
-						<i class="devicon-react-original"></i>
-						<p>React</p>
-					</div>
-					<div class="skill">
-						<i class="devicon-redux-original"></i>
-						<p>Redux</p>
-					</div>
-					<div class="skill">
-						<i class="devicon-mocha-plain"></i>
-						<p>Mocha</p>
-					</div>
-					<div class="skill">
-						<i class="devicon-flask-original"></i>
-						<p>Flask</p>
-					</div>
-					<div class="skill">
-						<i class="devicon-postgresql-plain"></i>
-						<p>PostgreSQL</p>
-					</div>
-					<div class="skill">
-						<i class="devicon-mongodb-plain"></i>
-						<p>MongoDB</p>
-					</div>
-					<div class="skill">
-						<i class="devicon-git-plain"></i>
-						<p>Git</p>
-					</div>
-					<div class="skill">
-						<i class="devicon-github-original"></i>
-						<p>Github</p>
-					</div>
-					<div class="skill">
-						<i class="devicon-materialui-plain"></i>
-						<p>Material UI</p>
-					</div>
-					<div class="skill">
-						<i class="devicon-heroku-original"></i>
-						<p>Heroku</p>
-					</div>
-					<div class="skill">
-						<i class="devicon-docker-plain"></i>
-						<p>Docker</p>
-					</div>
-					<div class="skill">
-						<i class="devicon-npm-original-wordmark"></i>
-						<p>NPM</p>
-					</div>
-					<div class="skill">
-						<i class="devicon-visualstudio-plain"></i>
-						<p>VS Code</p>
-					</div>
-				</div>
-			</section>
-
-			<!-- Projects -->
-			<section id="projects">
-				<h2>Featured Projects</h2>
-				<div class="row">
-					<article class="col-6 col-12-xsmall work-item">
-						<a href="https://github.com/bongochin/LarmSquad" class="image fit thumb"
-							><img src="images/projects/larmsquad.png" alt="" style="height: 200px"
-						/></a>
-						<h3>
-							'Larm Squad
-							<p style="color: #f8a95a">in development...</p>
-						</h3>
-						<p>
-							A React Native Productivity application that manages series of
-							notifications per task
-						</p>
-						<a style="width: 60px" href="" target="_blank"
-							><button disabled>LIVE</button></a
-						>
+				<!-- Summary -->
+				<article id="summary" class="panel">
+					<header>
+						<h2>SUMMARY</h2>
 						<a
-							style="width: 60px"
-							href="https://github.com/bongochin/LarmSquad"
+							href="images/Daniel Chin_Resume.pdf"
 							target="_blank"
-							><button>REPO</button></a
+							class="button"
+							style="text-decoration:none"
+							>Resume</a
 						>
-					</article>
-					<article class="col-6 col-12-xsmall work-item">
-						<a href="https://charkoots.herokuapp.com/" class="image fit thumb"
-							><img src="images/projects/charkoots.png" alt="" style="height: 200px"
-						/></a>
-						<h3>
-							Charkoots
-							<p style="color: #f8a95a">under renovation...</p>
-						</h3>
-						<p>
-							Wine pairing application based on build-your-own charcuterie board
-						</p>
-						<a
-							style="width: 60px"
-							href="https://charkoots.herokuapp.com/"
-							target="_blank"
-							><button>LIVE</button></a
-						>
-						<a
-							style="width: 60px"
-							href="https://github.com/bongochin/Charkoots"
-							target="_blank"
-							><button>REPO</button></a
-						>
-					</article>
-					<article class="col-6 col-12-xsmall work-item">
-						<a
-							href="https://github.com/ChadCalcote/Codezvous"
-							class="image fit thumb"
-							><img src="images/projects/codezvouz.png" alt="" style="height: 200px"
-						/></a>
-						<h3>
-							Codezvous
-							<p style="color: #f8a95a">Completed March '21</p>
-						</h3>
-						<p>
-							a Meetup clone designed for developers to meet other developers
-						</p>
-						<a
-							style="width: 60px"
-							href="https://codezvous.herokuapp.com/"
-							target="_blank"
-							><button>LIVE</button></a
-						>
-						<a
-							style="width: 60px"
-							href="https://github.com/ChadCalcote/Codezvous"
-							target="_blank"
-							><button>REPO</button></a
-						>
-					</article>
-					<article class="col-6 col-12-xsmall work-item">
-						<a href="images/fulls/03.jpg" class="image fit thumb"
-							><img src="images/projects/goodlaughs.png" alt="" style="height: 200px"
-						/></a>
-						<h3>
-							GoodLaughs
-							<p style="color: #f8a95a">Completed December '20</p>
-						</h3>
-						<p>
-							a GoodReads clone specialized in feeds, posts, ratings, and
-							reviews for jokes
-						</p>
-						<a
-							style="width: 60px"
-							href="https://good-laughs.herokuapp.com/users/login"
-							target="_blank"
-							><button>LIVE</button></a
-						>
-						<a
-							style="width: 60px"
-							href="https://github.com/Ty-Newman/GoodLaughs"
-							target="_blank"
-							><button>REPO</button></a
-						>
-					</article>
-					<article class="col-6 col-12-xsmall work-item">
-						<a href="images/fulls/05.jpg" class="image fit thumb"
-							><img src="images/projects/airbbq.png" alt="" style="height: 200px;"
-						/></a>
-						<h3>
-							Air-BBQ
-							<p style="color: #f8a95a">Completed December '20</p>
-						</h3>
-						<p>
-							An airbnb clone to review and book public barbeque pits in New
-							York City
-						</p>
-						<a
-							style="width: 60px"
-							href="https://air-bbq.herokuapp.com/"
-							target="_blank"
-							><button disabled>LIVE</button></a
-						>
-						<a
-							style="width: 60px"
-							href="https://github.com/bongochin/air-bbq"
-							target="_blank"
-							><button>REPO</button></a
-						>
-					</article>
-				</div>
-			</section>
-
-			<!-- Contact Me -->
-			<section id="contact-me">
-				<h2>Contact Me</h2>
-				<div class="row">
-					<div class="col-8 col-12-small">
-						<form method="post" action="https://formspree.io/f/mknkogzq">
-							<div class="row gtr-uniform gtr-50">
-								<div class="col-6 col-12-xsmall">
-									<input type="text" name="name" id="name" placeholder="Name" />
-								</div>
-								<div class="col-6 col-12-xsmall">
-									<input
-										type="email"
-										name="email"
-										id="email"
-										placeholder="Email"
-									/>
-								</div>
-								<div class="col-12">
-									<textarea
-										name="message"
-										id="message"
-										placeholder="Message"
-										rows="4"
-									></textarea>
-								</div>
-							</div>
-						</form>
-						<ul class="actions">
-							<li><input type="submit" value="Send Message" /></li>
-						</ul>
-					</div>
-					<div class="col-4 col-12-small">
-						<ul class="labeled-icons">
-							<li>
-								<h3 class="icon solid fa-home">
-									<span class="label">Address</span>
-								</h3>
-								New York, NY<br />
-								United States<br />
-							</li>
-							<li>
-								<h3 class="icon solid fa-mobile-alt">
-									<span class="label">Phone</span>
-								</h3>
-								<a href="tel: 201-315-7394">201-315-7394</a>
-							</li>
-							<li>
-								<h3 class="icon solid fa-envelope">
-									<span class="label">Email</span>
-								</h3>
-								<a href="mailto:danielmchin@outlook.com"
-									>danielmchin@outlook.com</a
-								>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</section>
-
-			<!-- Four -->
-			<!--
-					<section id="four">
-						<h2>Elements</h2>
-
-						<section>
-							<h4>Text</h4>
-							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-							<hr />
-							<header>
-								<h4>Heading with a Subtitle</h4>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<header>
-								<h5>Heading with a Subtitle</h5>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<hr />
-							<h2>Heading Level 2</h2>
-							<h3>Heading Level 3</h3>
-							<h4>Heading Level 4</h4>
-							<h5>Heading Level 5</h5>
-							<h6>Heading Level 6</h6>
-							<hr />
-							<h5>Blockquote</h5>
-							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-							<h5>Preformatted</h5>
-							<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-print 'Iteration ' + i;
-deck.shuffle();
-i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-						</section>
-
-						<section>
-							<h4>Lists</h4>
+					</header>
+					<p>
+						Hi! I'm Dan.
+						<br />
+						<br />
+						I am a Metro-NYC-based software deveoloper currently teaching
+						fundamental JavaScript and Data Structures & Algorithms at App
+						Academy. Coming from luxury hotel background (and a loving family),
+						I am a firm believer of proactive problem-solving and the power of
+						"Please and Thank You".
+						<br />
+						<br />
+						I pride myself in doing what I can and trying what I cannot and,
+						hence, programming has been so rewarding for me. I hope we can find
+						my values work for your mission.
+					</p>
+					<section>
+						<div className="personal">
+							<h3>I enjoy...</h3>
+							<br />
+							🏊‍♂️ ... swimming in the morning
+							<br />
+							🎨 ... being cultured (new exhibition, concerts, classic fictions)
+							<br />
+							🏀 ... watching NBA games (go Lakers)
+							<br />
+							🍷 ... sharing good times with loved ones
+							<br />
+						</div>
+						<br />
+						<div className="technologies">
+							<h3>Languages and Frameworks</h3>
+							<br/ >
 							<div class="row">
-								<div class="col-6 col-12-xsmall">
-									<h5>Unordered</h5>
-									<ul>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-									<h5>Alternate</h5>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
+								<div class="skill">
+									<i class="devicon-javascript-plain"></i>
+									<p>Javascript</p>
 								</div>
-								<div class="col-6 col-12-xsmall">
-									<h5>Ordered</h5>
-									<ol>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ol>
-									<h5>Icons</h5>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-										<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-									</ul>
+								<div class="skill">
+									<i class="devicon-python-plain"></i>
+									<p>Python</p>
 								</div>
-							</div>
-							<h5>Actions</h5>
-							<ul class="actions">
-								<li><a href="#" class="button primary">Default</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions small">
-								<li><a href="#" class="button primary small">Small</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<div class="row">
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
+								<div class="skill">
+									<i class="devicon-html5-plain"></i>
+									<p>HTML5</p>
 								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary small">Small</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
+								<div class="skill">
+									<i class="devicon-css3-plain"></i>
+									<p>CSS3</p>
 								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary fit">Default</a></li>
-										<li><a href="#" class="button fit">Default</a></li>
-									</ul>
+								<div class="skill">
+									<i class="devicon-nodejs-plain"></i>
+									<p>Node.js</p>
 								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary small fit">Small</a></li>
-										<li><a href="#" class="button small fit">Small</a></li>
-									</ul>
+								<div class="skill">
+									<i class="devicon-react-original"></i>
+									<p>React</p>
+								</div>
+								<div class="skill">
+									<i class="devicon-redux-original"></i>
+									<p>Redux</p>
+								</div>
+								<div class="skill">
+									<i class="devicon-mocha-plain"></i>
+									<p>Mocha</p>
+								</div>
+								<div class="skill">
+									<i class="devicon-flask-original"></i>
+									<p>Flask</p>
+								</div>
+								<div class="skill">
+									<i class="devicon-postgresql-plain"></i>
+									<p>PostgreSQL</p>
+								</div>
+								<div class="skill">
+									<i class="devicon-mongodb-plain"></i>
+									<p>MongoDB</p>
+								</div>
+								<div class="skill">
+									<i class="devicon-heroku-original"></i>
+									<p>Heroku</p>
+								</div>
+								<div class="skill">
+									<i class="devicon-docker-plain"></i>
+									<p>Docker</p>
+								</div>
+								<div class="skill">
+									<i class="devicon-npm-original-wordmark"></i>
+									<p>NPM</p>
 								</div>
 							</div>
-						</section>
-
-						<section>
-							<h4>Table</h4>
-							<h5>Default</h5>
-							<div class="table-wrapper">
-								<table>
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-
-							<h5>Alternate</h5>
-							<div class="table-wrapper">
-								<table class="alt">
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-						</section>
-
-						<section>
-							<h4>Buttons</h4>
-							<ul class="actions">
-								<li><a href="#" class="button primary">Primary</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button large">Large</a></li>
-								<li><a href="#" class="button">Default</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<ul class="actions fit">
-								<li><a href="#" class="button primary fit">Fit</a></li>
-								<li><a href="#" class="button fit">Fit</a></li>
-							</ul>
-							<ul class="actions fit small">
-								<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-								<li><a href="#" class="button fit small">Fit + Small</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-								<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-							</ul>
-							<ul class="actions">
-								<li><span class="button primary disabled">Primary</span></li>
-								<li><span class="button disabled">Default</span></li>
-							</ul>
-						</section>
-
-						<section>
-							<h4>Form</h4>
-							<form method="post" action="#">
-								<div class="row gtr-uniform gtr-50">
-									<div class="col-6 col-12-xsmall">
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-									</div>
-									<div class="col-6 col-12-xsmall">
-										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-									</div>
-									<div class="col-12">
-										<select name="demo-category" id="demo-category">
-											<option value="">- Category -</option>
-											<option value="1">Manufacturing</option>
-											<option value="1">Shipping</option>
-											<option value="1">Administration</option>
-											<option value="1">Human Resources</option>
-										</select>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-										<label for="demo-priority-low">Low Priority</label>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-normal" name="demo-priority">
-										<label for="demo-priority-normal">Normal Priority</label>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-high" name="demo-priority">
-										<label for="demo-priority-high">High Priority</label>
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-copy" name="demo-copy">
-										<label for="demo-copy">Email me a copy of this message</label>
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-human" name="demo-human" checked>
-										<label for="demo-human">I am a human and not a robot</label>
-									</div>
-									<div class="col-12">
-										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</section>
-
-						<section>
-							<h4>Image</h4>
-							<h5>Fit</h5>
-							<div class="box alt">
-								<div class="row gtr-50 gtr-uniform">
-									<div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-								</div>
-							</div>
-							<h5>Left &amp; Right</h5>
-							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-						</section>
-
+						</div>
+						<div className="education">
+							<h3>Education</h3>
+							<br />
+							<table>
+								<tr>
+									<td>App Academy | Full-Stack SWE Bootcamp</td>
+									<td>2020 - 2021</td>
+									<td>Online</td>
+								</tr>
+								<tr>
+									<td>UNLV | BS, Hospitality Management</td>
+									<td>2010 - 2015</td>
+									<td>Las Vegas, NV</td>
+								</tr>
+								<tr>
+									<td>Singapore Institute of Technology | Study Abroad</td>
+									<td>2014</td>
+									<td>Singapore</td>
+								</tr>
+							</table>
+						</div>
 					</section>
-				--></div>
+				</article>
 
-		<!-- Footer -->
-		<footer id="footer">
-			<div class="inner">
-				<ul class="icons">
-					<li>
-						<a
-							href="https://github.com/bongochin/"
-							class="icon brands fa-github"
-							target="_blank"
-							><span class="label">Github</span></a
+				<!-- Contact -->
+				<article id="contact" class="panel">
+					<header>
+						<h2>CONTACT ME</h2>
+					</header>
+					<p>some image here, looks empty</p>
+					<a
+						href="https://linkedin.com/bongochin"
+						class="icon brands fa-linkedin"
+					></a>
+					<a
+						href="https://instagram.com/bongochin/"
+						class="icon brands fa-instagram"
+					></a>
+					<br />
+					<h6>p: <a href="tel: 201-315-7394">(201) 315-7394</a></h6>
+					<h6>
+						E:
+						<a href="mailto: danielmchin@outlook.com"
+							>danielmchin@outlook.com</a
 						>
-					</li>
-					<li>
-						<a
-							href="https://www.linkedin.com/in/danielmchin/"
-							class="icon brands fa-linkedin"
-							target="_blank"
-							><span class="label">Github</span></a
-						>
-					</li>
-				</ul>
+					</h6>
+				</article>
+			</div>
+
+			<!-- Footer -->
+			<div id="footer">
 				<ul class="copyright">
-					<li>&copy; Daniel Chin</li>
-					<li>
-						<a href="http://html5up.net" style="font-size: 7px">HTML5 UP</a>
-					</li>
+					<li>&copy; Untitled.</li>
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
 			</div>
-		</footer>
+		</div>
 
 		<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.poptrox.min.js"></script>
 		<script src="assets/js/browser.min.js"></script>
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
